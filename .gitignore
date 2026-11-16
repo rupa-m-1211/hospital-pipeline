@@ -1,0 +1,18 @@
+# Python environments (rebuild with requirements.txt)
+.venv/
+.airflow-venv/
+__pycache__/
+
+# Generated data (can always be recreated)
+output/
+data/
+
+# Airflow runtime files: keep only the DAGs
+airflow/*
+!airflow/dags/
+
+# Downloaded tools
+*.jar
+
+# Mac system files
+.DS_Store
